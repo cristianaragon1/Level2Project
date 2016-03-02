@@ -1,0 +1,30 @@
+// Copyright Wintriss Technical Schools 2013
+import javax.swing.JOptionPane;
+
+public class SleepyHead {
+
+	public static void main(String[] args) {
+		
+		boolean isWeekday, isVacation;
+		String Weekday = JOptionPane.showInputDialog(null, "is it a weekday?");
+		if (Weekday.equals("yes")) {
+		String Vacation = JOptionPane.showInputDialog("Is it a vacation week?");
+		if (Vacation.equals("Yes")) {
+			System.out.println("Sleep in");
+		}
+		}else if (Weekday.equals("no")) {
+			System.out.println("Sleep in");
+		}
+		/*
+		 * Ask the user for these values using
+		 */
+	
+
+		/*
+		 * Print “sleep in” if it is a vacation or a weekend. If it’s a weekday,
+		 * print “get up lazybones!” If it is a weekday, and we are on vacation,
+		 * print “sleep in”.
+		 */
+		
+	}
+}
